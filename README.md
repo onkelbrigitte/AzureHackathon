@@ -17,14 +17,14 @@ What will we do in particular:
 
 We will connect a MCU (Microcontroller Unit) with onboard sensors, LCDs and other things to the [Azure Cloud](https://azure.microsoft.com/en-us/services/iot-hub/). With that setup, we will collect environmental data and run some analytics on top of that including a custom trained AI model.
 
-Specific prerequisites:
+#### Specific prerequisites:
 
-Used services:
+#### Used services:
 
-See the instructions here: 
+#### .See the instructions here: 
 
 
-## Unfuse our apps with AI using Azure Cognitive Services
+## Infuse our apps with AI using Azure Cognitive Services
 
 We will use Cognitive Services to implement several scenarios:
 
@@ -32,10 +32,10 @@ We will use Cognitive Services to implement several scenarios:
 - Text anlytics of tweets and create audio files of them with our [Text-Analytics-API](https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/) and our [Text-to-Speech API](https://azure.microsoft.com/en-us/services/cognitive-services/speech-translation/)
 - Knowledge Mining on unstructured data (documents) with [Azure Cognitive Search](https://azure.microsoft.com/en-us/services/search/). 
 
-Specific prerequisites:
+#### Specific prerequisites:
 
-Used services:
+#### Used services:
 
-See the instructions here: 
+#### See the instructions here: 
 
 ## Showcase our brand-new Azure Kinect DK devices. 
