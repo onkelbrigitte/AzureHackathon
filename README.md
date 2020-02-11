@@ -21,7 +21,7 @@ We will connect a MCU (Microcontroller Unit) with onboard sensors, LCDs and othe
 
 #### Used services:
 
-#### .See the instructions here: 
+#### See the instructions here: 
 
 
 ## Infuse our apps with AI using Azure Cognitive Services
