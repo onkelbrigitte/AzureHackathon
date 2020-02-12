@@ -19,9 +19,17 @@ We will connect a MCU (Microcontroller Unit) with onboard sensors, LCDs and othe
 
 #### Specific prerequisites:
 
+Go [here](https://github.com/raepple/azure-iot-hackathon/blob/master/README.md#prerequisites) for the list of prerequisites.
+
 #### Used services:
 
-#### See the instructions here: 
+- [Azure IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/)
+- [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
+- [Azure Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/)
+- [Azure Storage](https://azure.microsoft.com/en-us/services/storage/)
+- [Azure Functions](https://azure.microsoft.com/en-us/services/functions/)
+
+#### See the instructions here: https://github.com/raepple/azure-iot-hackathon/blob/master/README.md
 
 
 ## Infuse our apps with AI using Azure Cognitive Services
