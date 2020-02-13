@@ -29,7 +29,8 @@ Go [here](https://github.com/raepple/azure-iot-hackathon/blob/master/README.md#p
 - [Azure Storage](https://azure.microsoft.com/en-us/services/storage/)
 - [Azure Functions](https://azure.microsoft.com/en-us/services/functions/)
 
-#### See the instructions here: https://github.com/raepple/azure-iot-hackathon/blob/master/README.md
+#### See the instructions here: 
+- https://github.com/raepple/azure-iot-hackathon/blob/master/README.md
 
 
 ## Infuse our apps with AI using Azure Cognitive Services
@@ -41,9 +42,23 @@ We will use Cognitive Services to implement several scenarios:
 - Knowledge Mining on unstructured data (documents) with [Azure Cognitive Search](https://azure.microsoft.com/en-us/services/search/). 
 
 #### Specific prerequisites:
+Nothing apart from generic prerequisites
 
 #### Used services:
+- [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/)
+- [Azure Cognitive Search](https://azure.microsoft.com/en-us/services/search/)
+- [Azure Logic Apps](https://azure.microsoft.com/en-us/services/logic-apps/)
+- [Azure Storage](https://azure.microsoft.com/en-us/services/storage/)
+- [Azure Functions](https://azure.microsoft.com/en-us/services/functions/)
+- [Microsoft PowerApps](https://azure.microsoft.com/en-us/services/logic-apps/)
 
-#### See the instructions here: 
+#### See the instructions here:
+- [Knowledge Mining Challenge ](../Instructions/KnowledgeMining.md)
 
-## Showcase our brand-new Azure Kinect DK devices. 
+## Showcase our brand-new Azure Kinect DK devices.
+
+[Azure Kinect DK](https://azure.microsoft.com/en-us/services/kinect-dk/) is a developer kit with advanced AI sensors for sophisticated computer vision and speech models. Designed for versatility, it combines an advanced depth sensor and spatial microphone array with a video camera and orientation sensor—with multiple modes, options, and SDKs.
+
+Although not yet available in Europe, we were able to get a few and will demo some scenarios. 
+
+If somebody has a specific scenario in mind and would like to try it in the wild: be our guest!
