@@ -266,3 +266,30 @@ In the Formula bar change the Items formula to Prediction.
 
 ![ic-gallery-item](../Assets/ic-gallery-item.png)
 
+Click on the Edit icon within the gallery, then add two Text input fields.
+
+![ic-add-text-input](../Assets/ic-add-text-input.png)
+
+Feel free to rename and format the objects e.g. rename the text inputs to TagProbability and TagName and remove the text within and replace it with a less dominant Hint text.
+
+![ic-format-text](../Assets/ic-format-text.png)
+
+Now change the Default formula for both text inputs according to the image below:
+
+![ic-default-tagname](../Assets/ic-default-tagname.png)
+![ic-default-tagprob](../Assets/ic-default-tagprob.png)
+
+It is also possible to add logos, change the background etc. feel free to test things out.
+If you would like to add an image or logo, you have to upload it via File - Media and then add an Image via the Media tab. You can then reference your uploaded image in the formula bar.
+
+![ic-add-image](../Assets/ic-add-media.png)
+
+Let's do a quick test and see the results!
+
+![ic-final-result](../Assets/ic-finalresult.png)
+
+## Now what?
+
+This is the end of our guided tutorials. We hope you did get an idea about what you can do with Cognitive Services & Power Apps in the area of Vision.
+
+Now it's your turn to get creative and start hacking!
