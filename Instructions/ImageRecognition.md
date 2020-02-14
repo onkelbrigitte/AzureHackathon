@@ -23,4 +23,4 @@ Navigate to the [Power Apps Homepage](https://powerapps.microsoft.com/en-us/) an
 
 Once you've signed in click on "AI Builder" then "Build" on the left hand side.
 Since this is your first time using Power Apps you'll have to create a new environment & add a database first - click on the corresponding button in the middle of the page and just follow the instructions.
-![powerapps_start](../Assets/PA_Start.png)
+![powerapps_start](../Assets/PA_Start.PNG)
