@@ -57,6 +57,7 @@ Once your uploads are complete, select Analyze:
 Select the fields:  
 
 ![fp-selectfields](../Assets/fp-selectfields.png)
+
 Hover over the highlighted fields and confirm the fields that should be returned by the form when processing from our trained model.
 
 ![fp-selectfields2](../Assets/fp-selectfields2.png)
@@ -132,13 +133,12 @@ Once you're logged in click on Create a resource on the left hand side and then 
 (if you click on AI + Machine Learning you can have a look at all available Cognitive Services API's)
 
 Whenever you create a new resource it always gives you a list of helpful links like documentation, tutorials, pricing etc.
-Click on Create and fill out the necessary fields.
+Click on Create and fill out the necessary fields:
 - Name: Choose a name for your resource
 - Subscription: Choose the trial or your own subscription
 - Resource Group: Click Create New and choose a name
 - Location: We recommend the location that is closest to your location
 - Pricing: F0 is sufficient for the tutorial - you can change it later if necessary
-
 
 ![ic-create-custom-vision](../Assets/ic-create-custom-vision.png)
 
@@ -174,7 +174,7 @@ After you click Create project, you should see the following screen:
 
 #### Upload and tag images
 
-Before you continue, download the sample data [here](../CustomVision_Images.zip)
+Before you continue, download the sample data [here](../CustomVision_Images.zip).
 
 To add images, click the Add images button and then select Browse local files. Select Open to move to tagging. Your tag selection will be applied to the entire group of images you've selected to upload, so it's easier to upload images in separate groups according to their desired tags. You can also change the tags for individual images after they have been uploaded.
 
@@ -206,7 +206,7 @@ After training has completed, the model's performance is estimated and displayed
 
 Note the Probability Threshold slider on the left pane of the Performance tab. This is the level of confidence that a prediction needs to have in order to be considered correct (for the purposes of calculating precision and recall).
 
-When you interpret prediction calls with a high probability threshold, they tend to return results with high precision at the expense of recall—the detected classifications are correct, but many remain undetected. A low probability threshold does the opposite—most of the actual classifications are detected, but there are more false positives within that set. With this in mind, you should set the probability threshold according to the specific needs of your project. Later, when you're receiving prediction results on the client side, you should use the same probability threshold value as you used here.
+When you interpret prediction calls with a high probability threshold, they tend to return results with high precision at the expense of recall - the detected classifications are correct, but many remain undetected. A low probability threshold does the opposite - most of the actual classifications are detected, but there are more false positives within that set. With this in mind, you should set the probability threshold according to the specific needs of your project. Later, when you're receiving prediction results on the client side, you should use the same probability threshold value as you used here.
 
 ![ic-prob](../Assets/ic-probability.png)
 
