@@ -295,6 +295,6 @@ Let's do a quick test and see the results!
 
 ## Now what?
 
-This is the end of our guided tutorials. We hope you did get an idea about what you can do with Cognitive Services & Power Apps in the area of Vision.
+This is the end of our guided tutorials which were supposed to give you an idea about what you can do with Cognitive Services & Power Apps in the area of Vision.
 
 Now it's your turn to get creative and start hacking!
