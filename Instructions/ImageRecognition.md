@@ -1,8 +1,8 @@
 # Cognitive Services meets Power Apps Hackathon
 
 This tutorial will guide you through two scenario's:
-- Forms Processing: The first one will guide you step-by-step through the process of building a Power App infused by AI to familiarize yourself with Power Apps
-- Object Classification: The second one will show you how to deploy resources in Azure, train your own Custom Vision model and integrate it in any application
+- [Forms Processing](##scenario-1:-form-processing-with-power-apps): This is a step-by-step guide through the process of building a Power App infused by AI to familiarize yourself with Power Apps
+- Object Classification: This tutorial will show you how to deploy resources in Azure, train your own Custom Vision model and integrate it in any application
 
 ## Cognitive Services
 
