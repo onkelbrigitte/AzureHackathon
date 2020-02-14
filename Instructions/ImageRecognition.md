@@ -1,7 +1,9 @@
 # Cognitive Services meets Power Apps Hackathon
 
 This tutorial will guide you through two scenario's:
+
 - [Forms Processing](#scenario-1-form-processing-with-power-apps): This is a step-by-step guide through the process of building a Power App infused by AI to familiarize yourself with Power Apps
+
 - [Object Classification](#scenario-2-object-classification-with-the-custom-vision-api): This tutorial will show you how to deploy resources in Azure, train your own Custom Vision model and integrate it in any application
 
 ## Cognitive Services
@@ -44,7 +46,7 @@ Your screen should look like the following image:
 
 ![fp-start](../Assets/fp-start.png)
 
-We have prepared some sample invoices for you. You can find these documents [here](../FormProcessing_Invoices.zip). Select Add documents and add the documents from the Train folder. 
+We have prepared some sample invoices for you. You can find these documents [here](../FormProcessing_Invoices.zip). Select Add documents and add the documents from the Train folder.
 You must have at least five documents to train the model.
 Confirm the selection and click Upload.
 
@@ -110,7 +112,6 @@ You can of course add additional fields as well, please feel free to play around
 
 ![fp-finalresult.png](../Assets/fp-finalresult.png)
 
-
 ## Scenario 2: Object Classification with the Custom Vision API
 
 In the previous example you have seen how to infuse your app with AI thanks to the AI Builder. However, you are currently limited in the modules that you can choose.
@@ -134,6 +135,7 @@ Once you're logged in click on Create a resource on the left hand side and then 
 
 Whenever you create a new resource it always gives you a list of helpful links like documentation, tutorials, pricing etc.
 Click on Create and fill out the necessary fields:
+
 - Name: Choose a name for your resource
 - Subscription: Choose the trial or your own subscription
 - Resource Group: Click Create New and choose a name
@@ -147,7 +149,6 @@ Take note of your Key and Endpoint as we will need it at a later point to connec
 
 ![ic-resource-keys](../Assets/ic-resource-keys.png)
 
-
 #### Create a new project
 
 Now it's time to train your own model. Navigate to the [Custom Vision Portal](https://www.customvision.ai/) and sign in with the same account you used to sign into the Azure portal.
@@ -159,7 +160,7 @@ On the start page create a new project.
 The Create new project dialog box will appear.
 Enter a name and a description for the project. Then select a Resource Group. If your signed-in account is associated with an Azure account, the Resource Group dropdown will display all of your Azure Resource Groups that include a Custom Vision Service Resource.
 
-Custom Vision functionality can be divided into two features. Image classification applies one or more labels to an image. Object detection is similar, but it also returns the coordinates in the image where the applied label(s) can be found. 
+Custom Vision functionality can be divided into two features. Image classification applies one or more labels to an image. Object detection is similar, but it also returns the coordinates in the image where the applied label(s) can be found.
 Multilabel classification applies any number of your tags to an image (zero or more), while multiclass classification sorts images into single categories (every image you submit will be sorted into the most likely tag). You'll be able to change the classification type later if you want to.
 
 For this example select Image classification. Then choose Multiclass.
@@ -237,7 +238,7 @@ On the left hand side click on Data sources. There you'll find all available con
 
 Our large ecosystem of software as a service (SaaS) connectors enable you to connect apps, data, and devices in the cloud. Examples of popular connectors include Salesforce, Office 365, Twitter, Dropbox, Google services, and more.
 
-Search for the Custom Vision Connector. When you click the connect to data dialog appears. There you need to enter the Prediction Key and the Endpoint URL that you have copied from the Azure Portal in the very beginning - if not you can go [back to the portal](#create-custom-vision-resources-in-the-azure-portal) now and copy the keys ;-) 
+Search for the Custom Vision Connector. When you click the connect to data dialog appears. There you need to enter the Prediction Key and the Endpoint URL that you have copied from the Azure Portal in the very beginning - if not you can go [back to the portal](#create-custom-vision-resources-in-the-azure-portal) now and copy the keys ;-)
 
 ![ic-connector](../Assets/ic-connect-cv.png)
 
