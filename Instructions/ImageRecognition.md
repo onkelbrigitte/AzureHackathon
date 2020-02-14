@@ -210,6 +210,8 @@ When you interpret prediction calls with a high probability threshold, they tend
 
 ![ic-prob](../Assets/ic-probability.png)
 
+#### Publish your model
+
 When you are satisfied with the performance of the current training iteration, click Publish.
 The Publish Model dialog opens where you can specify the Model name and the Prediction resource that you have deployed in the very beginning.
 
@@ -235,7 +237,7 @@ On the left hand side click on Data sources. There you'll find all available con
 
 Our large ecosystem of software as a service (SaaS) connectors enable you to connect apps, data, and devices in the cloud. Examples of popular connectors include Salesforce, Office 365, Twitter, Dropbox, Google services, and more.
 
-Search for the Custom Vision Connector. When you click the connect to data dialog appears. There you need to enter the Prediction Key and the Endpoint URL that you have copied from the Azure Portal in the very beginning - if not you can go back to the portal now and copy the keys ;-) 
+Search for the Custom Vision Connector. When you click the connect to data dialog appears. There you need to enter the Prediction Key and the Endpoint URL that you have copied from the Azure Portal in the very beginning - if not you can go [back to the portal](#create-custom-vision-resources-in-the-azure-portal) now and copy the keys ;-) 
 
 ![ic-connector](../Assets/ic-connect-cv.png)
 
@@ -255,6 +257,8 @@ Now let's add a button:
 Adjust the size of the button and change the Text if you like. We will use this to trigger the API call to our pretrained model. Therefore we also need to adjust the formula "OnSelect" as shown in the picture:
 
 ![ic-analyze-button](../Assets/ic-analyze-button.png)
+
+You should have noted your Project ID and Publish Name earlier, but you can always [go back](#publish-your-model) and get it.
 
 ![ic-analyze-formula](../Assets/ic-analyze-formula.png)
 
