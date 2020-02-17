@@ -53,7 +53,7 @@ Nothing apart from generic prerequisites
 - [Microsoft PowerApps](https://azure.microsoft.com/en-us/services/logic-apps/)
 
 #### See the instructions here:
-- [Knowledge Mining Challenge](https://github.com/onkelbrigitte/AzureHackathon/blob/master/Instructions/KnowledgeMining.md)
+- [Knowledge Mining Challenge](./Instructions/KnowledgeMining.md)
 - [Image Recognition Challenge](./Instructions/ImageRecognition.md)
 
 ## Showcase our brand-new Azure Kinect DK devices.
