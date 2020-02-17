@@ -54,7 +54,7 @@ Nothing apart from generic prerequisites
 
 #### See the instructions here:
 - [Knowledge Mining Challenge](https://github.com/onkelbrigitte/AzureHackathon/blob/master/Instructions/KnowledgeMining.md)
-- [Image Recognition Challenge](../Instructions/ImageRecognition.md)
+- [Image Recognition Challenge](./Instructions/ImageRecognition.md)
 
 ## Showcase our brand-new Azure Kinect DK devices.
 
