@@ -46,7 +46,7 @@ Your screen should look like the following image:
 
 ![fp-start](../Assets/fp-start.png)
 
-We have prepared some sample invoices for you. You can find these documents [here](../FormProcessing_Invoices.zip). Select Add documents and add the documents from the Train folder.
+We have prepared some sample invoices for you. You can find these documents [here](../Annex/FormProcessing_Invoices.zip). Select Add documents and add the documents from the Train folder.
 You must have at least five documents to train the model.
 Confirm the selection and click Upload.
 
@@ -175,7 +175,7 @@ After you click Create project, you should see the following screen:
 
 #### Upload and tag images
 
-Before you continue, download the sample data [here](../CustomVision_Images.zip).
+Before you continue, download the sample data [here](../Annex/CustomVision_Images.zip).
 
 To add images, click the Add images button and then select Browse local files. Select Open to move to tagging. Your tag selection will be applied to the entire group of images you've selected to upload, so it's easier to upload images in separate groups according to their desired tags. You can also change the tags for individual images after they have been uploaded.
 
