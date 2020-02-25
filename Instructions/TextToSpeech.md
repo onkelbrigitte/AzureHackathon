@@ -2,10 +2,10 @@
 
 ## Prerequisites
 
-Azure subscription
-Twitter account
-Email account
-Optional OneDrive
+Azure subscription,
+Twitter account,
+Email account,
+Optional: OneDrive account
 
 **Setting up**
 
